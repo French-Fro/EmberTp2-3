@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('ex1', function() {
+    this.route('step');
+  });
+  this.route('step');
 });
 
 export default Router;
