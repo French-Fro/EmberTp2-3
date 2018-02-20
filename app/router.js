@@ -11,6 +11,10 @@ Router.map(function() {
     this.route('step');
   });
   this.route('step');
+  this.route('contacts', function() {
+    this.route('add');
+  });
+  this.route('test-add-contact');
 });
 
 export default Router;
